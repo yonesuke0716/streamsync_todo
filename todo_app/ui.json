@@ -1,0 +1,86 @@
+{
+    "metadata": {
+        "writer_version": "0.7.2"
+    },
+    "components": {
+        "root": {
+            "id": "root",
+            "type": "root",
+            "content": {
+                "appName": "My App"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "handlers": {}
+        },
+        "ul5xuyumy6cp2wno": {
+            "id": "ul5xuyumy6cp2wno",
+            "type": "page",
+            "content": {
+                "key": "taro",
+                "pageMode": "wide"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "root",
+            "handlers": {}
+        },
+        "fz4568npmplkkgav": {
+            "id": "fz4568npmplkkgav",
+            "type": "header",
+            "content": {
+                "text": "ToDo\u30a2\u30d7\u30ea"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "ul5xuyumy6cp2wno",
+            "handlers": {}
+        },
+        "qojlnqyjjb9k1xqj": {
+            "id": "qojlnqyjjb9k1xqj",
+            "type": "section",
+            "content": {
+                "title": "ToDo"
+            },
+            "isCodeManaged": false,
+            "position": 1,
+            "parentId": "ul5xuyumy6cp2wno",
+            "handlers": {}
+        },
+        "jmeqrrc1gp32b62p": {
+            "id": "jmeqrrc1gp32b62p",
+            "type": "columns",
+            "content": {},
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "qojlnqyjjb9k1xqj",
+            "handlers": {}
+        },
+        "47d60yp0ybpc1hgs": {
+            "id": "47d60yp0ybpc1hgs",
+            "type": "column",
+            "content": {
+                "width": "1"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "jmeqrrc1gp32b62p",
+            "handlers": {}
+        },
+        "gnw0sen1jh70gkx7": {
+            "id": "gnw0sen1jh70gkx7",
+            "type": "dataframe",
+            "content": {
+                "dataframe": "@{df}",
+                "showIndex": "no",
+                "enableDownload": "yes",
+                "useMarkdown": "yes",
+                "enableSearch": "yes"
+            },
+            "isCodeManaged": false,
+            "position": 0,
+            "parentId": "47d60yp0ybpc1hgs",
+            "handlers": {}
+        }
+    }
+}
